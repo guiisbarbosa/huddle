@@ -48,13 +48,16 @@ body {
     font-weight: 600;
     color: #FFF;
     margin-top: 50px;
+    margin-bottom: 40px;
+    font-size: 35px;
 }
 
 .container .info-register p {
     color: #FFF;
-    padding-right: 17px;
+    padding-right: 15px;
     margin-bottom: 25px;
     line-height: 150%;
+    font-size: 18px
 }
 
 .container .info-register button {
@@ -76,7 +79,7 @@ body {
 .container .socials {
     display: flex;
     grid-area: socials;
-    font-size: 30px;
+    font-size: 40px;
     justify-content: end;
     gap: 15px;
 }
