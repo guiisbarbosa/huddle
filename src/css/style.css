@@ -1,0 +1,90 @@
+body {
+    background: var(--primary-color) url('../images/bg-desktop.svg') center center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    max-width: 1280px;
+    display: grid;
+    grid:
+    'header header header'
+    'mockup info info'
+    'socials socials socials'
+    / auto 370px 155px;
+}
+
+.container .header {
+    grid-area: header;
+    height: 30px;
+    margin-bottom: 100px;
+}
+
+.container .header img {
+    width: 200px;
+}
+
+.container .mockup {
+    grid-area: mockup;
+    margin-right: 60px;
+}
+
+.container .mockup img {
+    width: 695px;
+}
+
+.container .info-register {
+    grid-area: info;
+    flex-direction: column;
+}
+
+.container .info-register h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #FFF;
+    margin-top: 50px;
+}
+
+.container .info-register p {
+    color: #FFF;
+    padding-right: 17px;
+    margin-bottom: 25px;
+    line-height: 150%;
+}
+
+.container .info-register button {
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 28px;
+    background-color: #fff;
+    color: var(--primary-color);
+    font-size: 16px;
+}
+
+.container .info-register button:hover {
+    background-color: var(--hover-color);
+    color: #fff;
+    cursor: pointer;
+}
+
+.container .socials {
+    display: flex;
+    grid-area: socials;
+    font-size: 30px;
+    justify-content: end;
+    gap: 15px;
+}
+
+.container .socials a {
+    color:  #fff;
+}
+
+.container .socials a:hover {
+    color: var(--hover-color);
+}
