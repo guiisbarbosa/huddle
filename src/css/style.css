@@ -34,9 +34,6 @@ body {
     margin-right: 60px;
 }
 
-.container .mockup img {
-    width: 695px;
-}
 
 .container .info-register {
     grid-area: info;
